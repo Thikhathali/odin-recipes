@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2em;
+    background-color: #f1f1f1;
+}
+
+.wrapper {
+    width: 40%;
+    min-width: 800px;
+    margin: auto 30% auto 30%;
+    text-align: center;
+}
+
+.main-header {
+    font-family: 'Comfortaa', cursive;
+    font-size: 8em;
+    margin: 40px;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 30px;
+    transition: all 0.2s;
+}
+
+a:hover {
+    font-size: 1.1em;
+}
+
+hr {
+    width: 98%;
+    margin: auto;
+}
+
+
+
