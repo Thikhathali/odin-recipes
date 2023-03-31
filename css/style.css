@@ -8,6 +8,43 @@ body {
     background-color: #f1f1f1;
 }
 
+h3{
+    font-size: 1.5em;
+    margin: 30px auto;
+}
+
+h4 {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 26px;
+}
+
+p {
+    color: #888;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ul, ol {
+    padding-left: 20px ;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.ingredientsList li {
+    margin: 10px auto auto 40px;
+}
+
+ol {
+    padding-bottom: 50px;    
+    padding-left: 40px;
+}
+
+ol li {
+    margin-top: 20px;
+}
+
 .wrapper {
     width: 40%;
     min-width: 800px;
@@ -21,7 +58,7 @@ body {
     margin: 40px;
 }
 
-li, a {
+.main-recipes li, a {
     list-style: none;
     text-decoration: none;
     background-color: #fff;
@@ -36,9 +73,24 @@ a:hover {
 }
 
 hr {
+    border: solid 0.cm #777;
     width: 98%;
     margin: auto;
 }
 
+.title-header {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 5em;
+    font-weight: 500;
+    margin: 20px auto;
+}
 
+.recipe-wrapper {
+    width: 40%;
+    margin: auto;
+}
 
+img {
+    width: 90%;
+    height: 50%;
+}
