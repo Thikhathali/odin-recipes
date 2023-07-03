@@ -94,3 +94,10 @@ img {
     width: 90%;
     height: 50%;
 }
+
+.footer {
+    position: fixed;
+    bottom: 5px;
+    width: 100vw;
+    text-align: center;
+}
